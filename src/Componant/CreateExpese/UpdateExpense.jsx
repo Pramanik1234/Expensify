@@ -129,7 +129,7 @@ const UpdateExpense = () => {
                             <option className=' bg-slate-900 overflow-hidden'>Travel</option>
                             <option className=' bg-slate-900 overflow-hidden'>Education</option>
                             <option className=' bg-slate-900 overflow-hidden'>Books</option>
-                            <option className=' bg-slate-900 overflow-hidden'>Others</option>
+                            <option className=' bg-slate-900 overflow-hidden'>other</option>
                         </select>
                         {errors.category && touched.category && (
                             <p className="text-red-600 text-sm ">

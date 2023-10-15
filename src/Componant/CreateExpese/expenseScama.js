@@ -12,7 +12,7 @@ export const expanseSchema = yup.object().shape({
     .string()
     .oneOf(
       ["Health", "Electronics", "Travel", "Education", "Books", "other"],
-      "Invalid Job Type"
+      "Invalid expense type"
     )
     .required("Please! select the catagory"),
   description: yup.string().required("Please! enter expense details"),
